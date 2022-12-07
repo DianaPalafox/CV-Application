@@ -10,9 +10,11 @@ class App extends React.Component {
     return (
       <div className='App'>
         <Header />
-        <Information />
-        <Education />
-        <Experience />
+        <div className='Content'>
+          <Information />
+          <Education />
+          <Experience />
+        </div> 
       </div>
     )
   }

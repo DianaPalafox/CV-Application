@@ -7,24 +7,25 @@ class Experience extends React.Component {
             <h2>Work Experience</h2>
             <form>
                 <div>
-                    <label htmlFor='occupation'>Occupation:</label>
-                    <input type='text' id='occupation'/>
+                    <input type='text' id='occupation' placeholder="Occupation"/>
+                    <input type='text' id='employer' placeholder="Employer"/>
+                </div>
+                <div className="date">
+                    <div className="from">
+                        <label htmlFor="from">From: </label>
+                        <input type='date' id='from' placeholder="From"/>
+                    </div>
+                    <div className="to">
+                        <label htmlFor="To">To: </label>
+                        <input type='date' id='to' placeholder="To"/>
+                    </div>
                 </div>
                 <div>
-                    <label htmlFor='employer'>Employer:</label>
-                    <input type='text' id='employer'/>
+                    <input type='textarea' rows="6" cols="50" id='description' placeholder="Job Description"/>
                 </div>
-                <div>
-                    <label htmlFor='from'>From:</label>
-                    <input type='date' id='from'/>
-                </div>
-                <div>
-                    <label htmlFor='to'>To:</label>
-                    <input type='date' id='to'/>
-                </div>
-                <div>
-                    <label htmlFor='description'>Job Description:</label>
-                    <input type='textarea' rows="6" cols="50" id='description'/>
+                <div className="buttons">
+                    <button type="submit">Add</button>
+                    <button type="button">Delete</button>
                 </div>
             </form>
       </div>

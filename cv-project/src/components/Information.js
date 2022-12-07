@@ -7,20 +7,12 @@ class Information extends React.Component {
             <h2>General Information</h2>
             <form>
                 <div>
-                    <label htmlFor='firstName'>First Name:</label>
-                    <input type='text' id='firstName'/>
+                    <input type='text' id='firstName' placeholder="First Name"/>
+                    <input type='text' id='lastName' placeholder="Last Name"/>
                 </div>
                 <div>
-                    <label htmlFor='lastName'>Last Name:</label>
-                    <input type='text' id='lastName'/>
-                </div>
-                <div>
-                    <label htmlFor='email'>Email:</label>
-                    <input type='email' id='email'/>
-                </div>
-                <div>
-                    <label htmlFor='tel'>Phone Number:</label>
-                    <input type='tel' id='tel'/>
+                    <input type='email' id='email' placeholder="Email"/>
+                    <input type='tel' id='tel' placeholder="Phone Number"/>
                 </div>
             </form>
       </div>
