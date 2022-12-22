@@ -1,14 +1,13 @@
 import React from "react";
 
-class Education extends React.Component {
-    render(){
+function Experience() {
         return (
-        <div>
-            <h2>Education</h2>
+        <div className="experience-form">
+            <h2>Work Experience</h2>
             <form>
                 <div>
-                    <input type='text' id='title' placeholder="Degree"/>
-                    <input type='text' id='university' placeholder="University"/>
+                    <input type='text' id='occupation' placeholder="Occupation"/>
+                    <input type='text' id='employer' placeholder="Employer"/>
                 </div>
                 <div className="date">
                     <div className="from">
@@ -20,6 +19,9 @@ class Education extends React.Component {
                         <input type='date' id='to' placeholder="To"/>
                     </div>
                 </div>
+                <div>
+                    <input type='textarea' rows="6" cols="50" id='description' placeholder="Job Description"/>
+                </div>
                 <div className="buttons">
                     <button type="submit">Add</button>
                     <button type="button">Delete</button>
@@ -27,7 +29,6 @@ class Education extends React.Component {
             </form>
       </div>
     )
-  }
 }
 
-export default Education;
+export default Experience;

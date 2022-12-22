@@ -92,3 +92,8 @@ button{
   border-radius: 5px;
   
 }
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(211, 235, 255);
+}

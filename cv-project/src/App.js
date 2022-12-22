@@ -1,8 +1,8 @@
 import './App.css';
 import React from "react";
-import Education from "./components/Education"
-import Information from "./components/Information"
-import Experience from "./components/Experience"
+import Education from "./components/education/Education"
+import Information from "./components/information/Information"
+import Experience from "./components/experience/Experience"
 import Header from "./components/Header"
 
 class App extends React.Component {
